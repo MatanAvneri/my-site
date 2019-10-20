@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Particles from './Particles'
-import logo from './logo.svg';
+import logo from './logo.png';
 import SocialBar from './SocialBar'
 import Links from './LINKS'
 import './App.css';
