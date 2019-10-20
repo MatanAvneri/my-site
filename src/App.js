@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import Particles from './Particles'
-import logo from './logo.png';
 import SocialBar from './SocialBar'
+import Timeline from './Timeline'
 import Links from './LINKS'
+import logo from './logo.png';
 import style from './App.module.scss';
 
 const App = () => {
@@ -12,16 +13,17 @@ const App = () => {
 
   return (
     <div className={style.App}>
-      <Particles />
       <header className={style.App__header}>
-        <img src={logo} className={style.App__logo} alt="logo" />
+        <Particles />
         <p className={style.App__summary}>
+          <img src={logo} className={style.App__logo} alt="logo" />
           Experienced team leader with a proven track record of building high quality, large scale and complex front end systems from scratch.
-          <br/>
+          <br />
           Skilled in FrontEnd, NodeJS, Java and Management.
         </p>
+        <SocialBar />
       </header>
-      <SocialBar />
+      <Timeline />
     </div>
   );
 }
