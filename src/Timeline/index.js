@@ -2,6 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import config from './config'
 import 'react-vertical-timeline-component/style.min.css';
+import './overrides.css'
 
 const Timeline = () => {
   return (
@@ -14,7 +15,7 @@ const Timeline = () => {
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date={`${start} - ${end}`}
-            icon={<img alt={company} style={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '100%', height: '100%', borderRadius: '100%' }} src={iconSrc} />}
+            icon={<img alt={company} style={{ width: '100%', height: '100%', borderRadius: '100%' }} src={iconSrc} />}
           >
             <h3 className="vertical-timeline-element-title">{title}</h3>
             <h4 className="vertical-timeline-element-subtitle">{company}</h4>
