@@ -13,18 +13,16 @@ const App = () => {
 
   return (
     <div className={style.App}>
-      <div>
-        <header className={style.App__header}>
-          <Particles />
-          <p className={style.App__summary}>
-            <img src={logo} className={style.App__logo} alt="logo" />
-            Experienced team leader with a proven track record of building high quality, large scale and complex front end systems from scratch.
+      <header className={style.App__header}>
+        <Particles />
+        <p className={style.App__summary}>
+          <img src={logo} className={style.App__logo} alt="logo" />
+          Experienced team leader with a proven track record of building high quality, large scale and complex front end systems from scratch.
             <br />
-            Skilled in FrontEnd, NodeJS, Java and Management.
+          Skilled in FrontEnd, NodeJS, Java and Management.
           </p>
-        </header>
-        <Timeline />
-      </div>
+      </header>
+      <Timeline />
       <SocialBar />
     </div>
   );
