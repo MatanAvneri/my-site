@@ -20,20 +20,24 @@
     }
 
     &__icon {
-      font-size: 34px;
+      font-size: 2rem;
     }
   }
 
   @media only screen and (max-width: 1170px) {
     & {
-      background: black;
+      background: rgba(0, 0, 0, 0.7);
       left: 0;
-      height: 80px;
+      height: 70px;
       flex-direction: row;
       padding: 20px 0;
 
       &__item {
         margin: 0 14px;
+
+        &__icon {
+          font-size: 1.5rem;
+        }
       }
     }
   }
