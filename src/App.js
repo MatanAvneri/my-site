@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
+import SocialBar from './SocialBar'
 import Links from './LINKS'
 import './App.css';
 
-function App() {
+const App = () => {
   useEffect(() => {
     console.log(`Checkout my GitHub at ${Links.gitHub}`)
   }, [])
@@ -24,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <SocialBar />
     </div>
   );
 }
