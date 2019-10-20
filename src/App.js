@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Particles from './Particles'
 import logo from './logo.svg';
 import SocialBar from './SocialBar'
 import Links from './LINKS'
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Particles />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
