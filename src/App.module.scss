@@ -1,0 +1,25 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+
+  &__logo {
+    height: 40vmin;
+  }
+
+  &__header {
+    flex: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  &__summary {
+    padding: 0 20px;
+  }
+}

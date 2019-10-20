@@ -3,7 +3,7 @@ import Particles from './Particles'
 import logo from './logo.png';
 import SocialBar from './SocialBar'
 import Links from './LINKS'
-import './App.css';
+import style from './App.module.scss';
 
 const App = () => {
   useEffect(() => {
@@ -11,21 +11,13 @@ const App = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div className={style.App}>
       <Particles />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <header className={style.App__header}>
+        <img src={logo} className={style.App__logo} alt="logo" />
+        <p className={style.App__summary}>
+          Experienced team leader with a proven track record of building high quality, large scale and complex front end systems from scratch. Skilled in FrontEnd, NodeJS, Java and Management.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       <SocialBar />
     </div>
