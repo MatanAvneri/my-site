@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
+import Links from './LINKS'
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    console.log(`Checkout my GitHub at ${Links.gitHub}`)
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
