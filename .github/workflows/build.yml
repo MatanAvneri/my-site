@@ -11,9 +11,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: borales/actions-yarn@v2.0.0
       with:
-        cmd: install && npm rebuild node-sass
-    - name: npm install, build, and test
-      run: |
-        yarn build
+        cmd: install && yarn build
       env:
         CI: true
