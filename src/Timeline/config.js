@@ -27,14 +27,14 @@ export default [
   {
     iconSrc: 'https://media.licdn.com/dms/image/C560BAQFc_VNUvqpWcw/company-logo_400_400/0?e=1579737600&v=beta&t=gJ2ttuQCjVMOI1EwIPK6rBnVoWCqe1eCjpA4Y7z1T1E',
     title: 'Software Architect',
-    company: 'IDF \ Intelligence Corps \ 9900',
+    company: 'IDF \\ Intelligence Corps \\ 9900',
     start: 'Apr 2011',
     end: 'Sep 2013'
   },
   {
     iconSrc: 'https://media.licdn.com/dms/image/C560BAQFc_VNUvqpWcw/company-logo_400_400/0?e=1579737600&v=beta&t=gJ2ttuQCjVMOI1EwIPK6rBnVoWCqe1eCjpA4Y7z1T1E',
     title: 'Shob programmer',
-    company: 'IDF \ Intelligence Corps \ 9900',
+    company: 'IDF \\ Intelligence Corps \\ 9900',
     start: 'Jun 2009',
     end: 'Apr 2011'
   }
