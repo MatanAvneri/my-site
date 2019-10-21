@@ -21,8 +21,8 @@ const App = () => {
           Experienced team leader with a proven track record of building high quality, large scale and complex front end systems from scratch.
             <br />
           Skilled in FrontEnd, NodeJS, Java and Management.
-          </p>
-        <img className={style.App__summary__profile} src='https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200' alt='my profile' />
+          <img className={style.App__summary__profile} src='https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200' alt='my profile' />
+        </p>
       </header>
       <Timeline />
       <SocialBar />
