@@ -12,8 +12,8 @@ const Timeline = () => {
           <VerticalTimelineElement
             key={title + company}
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 100%,#7db9e8 100%)', color: '#fff', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid #1e5799' }}
             date={`${start} - ${end}`}
             icon={<img alt={company} style={{ width: '100%', height: '100%', borderRadius: '100%' }} src={iconSrc} />}
           >
