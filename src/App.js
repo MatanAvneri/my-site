@@ -5,6 +5,7 @@ import Timeline from './Timeline'
 import Links from './LINKS'
 import logo from './logo.png';
 import style from './App.module.scss';
+import Footer from './Footer';
 
 const App = () => {
   useEffect(() => {
@@ -21,10 +22,11 @@ const App = () => {
             <br />
           Skilled in FrontEnd, NodeJS, Java and Management.
           </p>
-          <img className={style.App__summary__profile} src='https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200' alt='profile picture' />
+        <img className={style.App__summary__profile} src='https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200' alt='my profile' />
       </header>
       <Timeline />
       <SocialBar />
+      <Footer />
     </div>
   );
 }
