@@ -32,13 +32,15 @@ export default [
     title: 'Software Architect',
     company: 'IDF \\ Intelligence Corps \\ 9900',
     start: 'Apr 2011',
-    end: 'Sep 2013'
+    end: 'Sep 2013',
+    link: 'https://www.idf.il/en/minisites/military-intelligence-directorate/'
   },
   {
     iconSrc: 'https://media.licdn.com/dms/image/C560BAQFc_VNUvqpWcw/company-logo_400_400/0?e=1579737600&v=beta&t=gJ2ttuQCjVMOI1EwIPK6rBnVoWCqe1eCjpA4Y7z1T1E',
     title: 'Shob programmer',
     company: 'IDF \\ Intelligence Corps \\ 9900',
     start: 'Jun 2009',
-    end: 'Apr 2011'
+    end: 'Apr 2011',
+    link: 'https://www.idf.il/en/minisites/military-intelligence-directorate/'
   }
 ]
