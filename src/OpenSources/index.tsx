@@ -19,7 +19,7 @@ const PROJECT_EXAMPLES: { name: string; link: string }[] = [
 const OpenSources: React.FC = () => {
   return (
     <section className={style.OpenSources}>
-      <h2>Example Of Projects Contributed To</h2>
+      <h2>Major contributor to projects such as:</h2>
       <div className={style.OpenSources__projects}>
         {PROJECT_EXAMPLES.map(({ name, link }) => (
           <a
