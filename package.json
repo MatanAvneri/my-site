@@ -8,11 +8,16 @@
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-particles-js": "^2.7.0",
     "react-scripts": "3.2.0",
-    "react-vertical-timeline-component": "^2.5.0"
+    "react-vertical-timeline-component": "^2.5.0",
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "predeploy": "react-scripts build",

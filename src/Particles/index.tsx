@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js';
 import style from './Particles.module.scss'
 
-const MyParticles = () => {
+const MyParticles: React.FC = () => {
   return (
     <Particles params={{
       fps_limit: 28,
