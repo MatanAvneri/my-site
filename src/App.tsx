@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'
 import Particles from './Particles'
 import SocialBar from './SocialBar'
 import Timeline from './Timeline'
 import OpenSources from './OpenSources'
 import Links from './LINKS'
-import logo from './logo.png';
-import style from './App.module.scss';
-import Footer from './Footer';
+import logo from './logo.png'
+import style from './App.module.scss'
+import Footer from './Footer'
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -19,11 +19,16 @@ const App: React.FC = () => {
         <Particles />
         <p className={style.App__summary}>
           <img src={logo} className={style.App__logo} alt="logo" />
-          Experienced team leader with a proven track record of building high quality, large scale and complex front-end systems from scratch.
-            <br />
-            <br />
+          Experienced team leader with a proven track record of building high
+          quality, large scale and complex front-end systems from scratch.
+          <br />
+          <br />
           Skilled FullStack Engineer, highly experienced in react and NodeJS.
-          <img className={style.App__summary__profile} src='https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200' alt='my profile' />
+          <img
+            className={style.App__summary__profile}
+            src="https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200"
+            alt="my profile"
+          />
         </p>
       </header>
       <Timeline />
@@ -31,7 +36,7 @@ const App: React.FC = () => {
       <SocialBar />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
