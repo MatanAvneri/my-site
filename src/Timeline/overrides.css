@@ -2,10 +2,14 @@
   .vertical-timeline--two-columns .vertical-timeline-element-icon {
     width: 70px;
     height: 70px;
-    margin-left: -33px;
+    margin-left: -36px;
   }
 }
 
 .vertical-timeline-element-icon {
   background: white;
+}
+
+.vertical-timeline::before {
+  width: 2px;
 }

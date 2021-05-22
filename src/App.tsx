@@ -23,7 +23,7 @@ const App: React.FC = () => {
           quality, large scale and complex front-end systems from scratch.
           <br />
           <br />
-          Skilled FullStack Engineer, highly experienced in react and NodeJS.
+          Skilled full-stack engineer, highly experienced in react and NodeJS.
           <img
             className={style.App__summary__profile}
             src="https://secure.gravatar.com/avatar/ae59dab97c135533ccd77689d9e8d546?size=200"
