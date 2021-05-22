@@ -4,7 +4,8 @@ interface Item {
   company: string,
   start: string,
   end: string,
-  link: string
+  link: string,
+  description?: string
 }
  
 const config: Item[] = [
