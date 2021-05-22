@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './OpenSources.module.scss'
 
-const PROJECT_EXAMPLES = [
+const PROJECT_EXAMPLES: { name: string, link: string }[] = [
   {
     name: 'css-snippets',
     link: 'https://github.com/emilkowalski/css-effects-snippets'
@@ -16,15 +16,16 @@ const PROJECT_EXAMPLES = [
   }
 ]
 
-const OpenSources = () => {
+const OpenSources: React.FC = () => {
   return (
-    <section className={style.OpenSources}>
+    <section className={ style.OpenSources }>
       <h2>Example Of Projects Contributed To</h2>
-      <div className={style.OpenSources__projects}>
+      <div className={ style.OpenSources__projects }>
         {
           PROJECT_EXAMPLES.map(({ name, link }) => (
-            <a href={link} target='_blank' rel='noopener noreferrer' key={name} className={style.OpenSources__projects__project}>
-              <label>{name}</label>
+            <a href={ link } target='_blank' rel='noopener noreferrer' key={ name }
+               className={ style.OpenSources__projects__project }>
+              <label>{ name }</label>
             </a>
           ))
         }

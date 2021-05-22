@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import './overrides.css'
 import style from './Timeline.module.scss'
 
-const Timeline = () => {
+const Timeline: React.FC = () => {
   return (
     <VerticalTimeline>
       {

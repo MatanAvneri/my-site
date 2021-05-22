@@ -8,7 +8,7 @@ import logo from './logo.png';
 import style from './App.module.scss';
 import Footer from './Footer';
 
-const App = () => {
+const App: React.FC = () => {
   useEffect(() => {
     console.log(`Checkout my GitHub at ${Links.gitHub}`)
   }, [])

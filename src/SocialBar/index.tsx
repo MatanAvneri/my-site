@@ -1,10 +1,15 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faGithub, IconName } from '@fortawesome/free-brands-svg-icons'
 import SocialLinks from '../LINKS'
 import style from './SocialBar.module.scss'
 
-const Link = ({ icon, children }) => (
+interface LinkProps {
+  icon: IconName,
+  children: string
+}
+
+const Link: React.FC<LinkProps> = ({ icon, children }) => (
   <li className={style.SocialBar__item}>
     <a href={children}
       target="_blank"
@@ -14,7 +19,7 @@ const Link = ({ icon, children }) => (
   </li>
 )
 
-const SocialBar = () => {
+const SocialBar: React.FC = () => {
   return (
     <ul className={style.SocialBar}>
       <Link key={faGithub.iconName} icon={faGithub.iconName}>
