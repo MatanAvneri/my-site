@@ -12,8 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install && yarn build
+      - name: build
+        run: yarn && yarn build
         env:
           CI: true
