@@ -48,6 +48,8 @@
     "gh-pages": "4.0.0",
     "prettier": "2.7.1",
     "vite": "4.4.9",
+    "vite-plugin-checker": "0.6.1",
+    "vite-plugin-handlebars": "1.6.0",
     "vite-plugin-svgr": "3.2.0",
     "vite-tsconfig-paths": "4.2.0"
   }
