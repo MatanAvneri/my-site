@@ -1791,10 +1791,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.6.0.tgz#f0ddca5a61e52627c9dcb771a6039d44694597bc"
   integrity sha512-gCYSfQpy+LYhOFTKAeE8BkyGqaxmlFxe+n4DKM6DR0wzw/HISUE/hAmkC/KT8Sw5PCJblqg062b3z9gucv3k0A==
 
-"@types/node@18.11.9":
-  version "18.11.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.9.tgz#02d013de7058cea16d36168ef2fc653464cfbad4"
-  integrity sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
+"@types/node@18.17.5":
+  version "18.17.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.5.tgz#c58b12bca8c2a437b38c15270615627e96dd0bc5"
+  integrity sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
