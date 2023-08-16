@@ -12,8 +12,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
-      - uses: borales/actions-yarn@v4
-        with:
-          cmd: install && yarn build
-        env:
-          CI: true
+      - name: Install NPM packages
+        run: yarn
+      - name: Build project
+        run: yarn build
+
