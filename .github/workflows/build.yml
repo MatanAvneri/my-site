@@ -8,8 +8,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Set Node.js
+        uses: actions/setup-node@v3
         with:
-          cmd: install && yarn build
-        env:
-          CI: true
+          node-version: 20.x
+      - name: Install NPM packages
+        run: yarn
+      - name: Build project
+        run: yarn build
+
